@@ -42,6 +42,9 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
+// nestedFunction() is apart of the parent so it pretty much says, wait, i don't have this, let me go back to my parent and ask if they have this interal variable. 
+// internal variable is still apart of myFunction()
+
 
 const external = "I'm outside the function";
 
