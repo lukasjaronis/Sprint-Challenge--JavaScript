@@ -109,7 +109,6 @@ for (i = 0; i < graduates.length; i++) {
   unisWithUni.push(graduates[i].university);
 }
 
-
 console.log(unisWithUni);
 
 
@@ -136,6 +135,13 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
+
+
+zooAnimals.forEach(function(currentValue){
+return displayNames.push(`${currentValue.animal_name}: ${currentValue.scientific_name}`);
+});
+
+
 console.log(displayNames);
 
 /* Request 2: .map()
